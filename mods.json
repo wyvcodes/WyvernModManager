@@ -1,1 +1,38 @@
-
+{
+   "mods" : [
+      {
+         "name" : "BepInEx",
+         "tag" : "",
+         "gitPath" : "BepInEx/BepInEx",
+         "releaseId" : 1,
+         "author" : "BepInEx Team",
+         "group" : "Core"
+      },
+      {
+         "name" : "Utilla",
+         "tag" : "",
+         "gitPath" : "iiDk-the-actual/Utilla-Public",
+         "releaseId" : 0,
+         "author" : "iiDk",
+         "group" : "Libraries"
+      }
+   ],
+   "groups" : [
+     {
+       "name" : "Core",
+       "rank" : 0
+     },
+     {
+       "name" : "Cosmetic",
+       "rank" : 1
+     },
+     {
+       "name" : "Gameplay",
+       "rank" : 2
+     },
+     {
+       "name" : "Libraries",
+       "rank" : 3
+     }
+   ]
+}
